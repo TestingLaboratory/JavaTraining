@@ -14,7 +14,7 @@ public class ClassConventions {
      * constructors
      */
 
-    ClassConventions() {
+    public ClassConventions() {
 
     }
 
@@ -44,6 +44,10 @@ public class ClassConventions {
 
     void incrementNumber() {
         numberField++;
+    }
+
+    String getOtherField() {
+        return otherField;
     }
 
 }

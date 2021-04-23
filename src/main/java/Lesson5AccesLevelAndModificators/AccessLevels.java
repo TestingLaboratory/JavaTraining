@@ -11,6 +11,9 @@ public class AccessLevels {
     final int numberSix = 6;
 
     static final private String experimets = "it must be initialized";
+    static final public String sampleStaticText = "it must be";
+    final public String sampleText = "it must be";
 
+    //todo declare yours own variables
 
 }

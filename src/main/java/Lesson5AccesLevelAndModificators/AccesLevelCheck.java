@@ -19,8 +19,10 @@ public class AccesLevelCheck {
 
         System.out.println(AccessLevels.numberFive);
 
+        System.out.println(accessLevels.sampleText);
+        System.out.println(AccessLevels.sampleStaticText);
 
-//TODO try to increase each variable
+//TODO try to increase or modify each variable
     }
 
 

@@ -1,6 +1,6 @@
 package Lesson8.Colections;
 
-public class ColectonsTables {
+public class CollectionsTables {
     public static void main(String[] args) {
         /**
          * tables

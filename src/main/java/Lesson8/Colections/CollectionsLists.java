@@ -3,7 +3,7 @@ package Lesson8.Colections;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ColectionsLists {
+public class CollectionsLists {
 
     public static void main(String[] args) {
         List<String> listsOfTexts = new ArrayList<String>();
@@ -20,5 +20,8 @@ public class ColectionsLists {
         System.out.println(doubles.get(0));
 
         doubles.add(5.0);
+
+        //todo create your own list and fill it wit sample data
+        //todo OPTIONAL create lists with other list in in it. And Fill it;
     }
 }
