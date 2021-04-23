@@ -14,5 +14,7 @@ public class NonPrimitive {
 
         System.out.println( integer.doubleValue());
 
+
+        //TODO declare 2 variables each type and print it.
     }
 }

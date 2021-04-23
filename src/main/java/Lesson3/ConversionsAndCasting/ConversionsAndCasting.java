@@ -26,5 +26,7 @@ public class ConversionsAndCasting {
         System.out.println("some letter " +  someLetter );
         System.out.println("some letter converted to asci code " + (int)someLetter );
         System.out.println("some number to letter " + (char)666);
+
+        //TODO try to cast two ints into double and two floats into int
     }
 }
