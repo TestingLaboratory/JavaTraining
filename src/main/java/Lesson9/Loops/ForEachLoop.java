@@ -14,8 +14,14 @@ public class ForEachLoop {
 
 
         for (String person : personLists) {
-            System.out.println(person);
+            // System.out.println(person);
+
+            if (person.length() > 4) {
+                System.out.println(person.substring(0, 4));
+            }
         }
+        System.out.println();
+        personLists.forEach(System.out::println);
     }
 
 

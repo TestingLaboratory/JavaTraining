@@ -3,8 +3,9 @@ package Lesson9.Loops;
 public class ForLoop {
 
     public static void main(String[] args) {
+
         System.out.println("count from 0 to ??");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
             System.out.println("count " + i);
         }
 
@@ -12,12 +13,20 @@ public class ForLoop {
         for (int i = 10; i > 0; i--) {
             System.out.println("count " + i);
         }
+        int[] tablcia = new int[6610];
+
+        for (int i = 0; i < tablcia.length; i= i+5) {
+
+       //     System.out.println(tablcia[i]);
+
+        }
+
 
 /**
  *  The bomb system.
  */
         System.out.println("count from 10 to ??");
-        for (int i = 10; i != 0; i--) {
+        for (int i = 10; i > 0; i--) {
             if (i % 2 == 0) {
                 System.out.println("Tick");
             }
