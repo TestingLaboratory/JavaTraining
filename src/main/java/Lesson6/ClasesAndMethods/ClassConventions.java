@@ -1,13 +1,16 @@
 package Lesson6.ClasesAndMethods;
 
-import java.lang.reflect.Field;
-
 public class ClassConventions {
+
+    public static void main(String[] args) {
+
+    }
+
     /**
      * fields section
      */
     String field;
-    String otherField;
+    private String otherField;
     int numberField = 10;
 
     /**
@@ -26,6 +29,7 @@ public class ClassConventions {
     /**
      * methods section
      */
+
     void printSomething() {
         System.out.println("print me");
     }
@@ -48,6 +52,10 @@ public class ClassConventions {
 
     String getOtherField() {
         return otherField;
+    }
+
+    void setOtherField(String value) {
+        otherField = value;
     }
 
 }

@@ -12,15 +12,18 @@ public class MatchOperations {
 
 
         double summary = numberOne + numberTwo - numberThree / numberFour * numberTwo;
+
         System.out.println(summary);
 
         int someNumber = 0;
+        int variable = 0;
+        variable = variable -1;
         System.out.println("0: " + someNumber);
         System.out.println("1: " + someNumber++);
         System.out.println("2: " + someNumber);
 
         System.out.println("3: " + (++someNumber));
-
+        System.out.println("4: " + (someNumber));
 
         System.out.println("2 modulo 3= " + numberTwo % 3);
 

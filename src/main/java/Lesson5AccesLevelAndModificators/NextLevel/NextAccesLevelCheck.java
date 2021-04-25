@@ -23,6 +23,11 @@ public class NextAccesLevelCheck {
 
         System.out.println(NextAccessLevels.nextNumberFive);
 
+        nextAccessLevels.nextNumberOne = 11;
+        ++nextAccessLevels.nextNumberThree;
+
+        System.out.println(nextAccessLevels.nextNumberOne);
+        System.out.println(nextAccessLevels.nextNumberThree);
 
         System.out.println(accessLevels.numberThree);
 

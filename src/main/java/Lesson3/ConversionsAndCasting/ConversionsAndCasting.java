@@ -28,5 +28,7 @@ public class ConversionsAndCasting {
         System.out.println("some number to letter " + (char)666);
 
         //TODO try to cast two ints into double and two floats into int
+
+        int dob =  (int)1f;
     }
 }

@@ -9,14 +9,22 @@ public class RunnableClass {
         ClassConventions someClass = new ClassConventions();
         ClassConventions classConventionsPreDef = new ClassConventions("preDef");
 
+
         System.out.println(someClass);
         System.out.println(someClass.getField());
         System.out.println(someClass.getNumber());
 
         System.out.println(classConventionsPreDef);
+
         System.out.println(classConventionsPreDef.getField());
         System.out.println(classConventionsPreDef.getOtherField());
         System.out.println(classConventionsPreDef.getNumber());
+
+        someClass.modifyField("MojaWartość");
+        someClass.setOtherField("otherValue");
+
+        System.out.println(someClass.getField());
+        System.out.println(someClass.getOtherField());
 
 
         //TODO create Yours Own Class representing a Toy. (max 4 fields name,color etc.) and implements operations on it;

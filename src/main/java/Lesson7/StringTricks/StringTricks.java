@@ -7,8 +7,11 @@ public class StringTricks {
         System.out.println(sampleString.equals("Sample"));
         System.out.println(sampleString.contains("tests"));
 
-        sampleString.toLowerCase();
-        sampleString.toUpperCase();
+
+        System.out.println(  sampleString.toLowerCase());
+
+        System.out.println(sampleString.toUpperCase());
+
         System.out.println(sampleString.equals("SaMPle TeStS StriNg"));
 
         System.out.println(sampleString.compareToIgnoreCase("SaMPle TeStS StriNg"));

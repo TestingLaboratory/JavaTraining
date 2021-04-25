@@ -7,7 +7,7 @@ public class Primitives {
 
         int someNumber = 1;
         int otherNumber = -10;
-        System.out.println("this is an number " + someNumber + " ant this is other " + otherNumber);
+        System.out.println("this is an number " + someNumber + " and this is other " + otherNumber);
 
         boolean logicalPositiveValue = true;
         boolean logicalNegativeValue = false;

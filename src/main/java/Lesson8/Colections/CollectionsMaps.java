@@ -18,6 +18,7 @@ public class CollectionsMaps {
 
         myMap.remove("someKey");
 
+
         //todo create map with numbers as Keys and YourOwnClass form lesson 6. Discover some useful maps methods
 
     }
