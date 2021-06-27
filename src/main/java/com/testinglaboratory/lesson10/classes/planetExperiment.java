@@ -1,4 +1,4 @@
-package Lesson10.Inheritance;
+package com.testinglaboratory.lesson10.classes;
 
 import java.util.ArrayList;
 import java.util.List;

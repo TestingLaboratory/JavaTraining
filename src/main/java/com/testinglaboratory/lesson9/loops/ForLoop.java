@@ -1,4 +1,4 @@
-package Lesson9.Loops;
+package com.testinglaboratory.lesson9.loops;
 
 public class ForLoop {
 
