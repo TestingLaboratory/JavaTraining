@@ -1,4 +1,4 @@
-package Lesson0.FirstPackage;
+package com.testinglaboratory.lesson0.primer;
 
 public class HelloWorld {
 

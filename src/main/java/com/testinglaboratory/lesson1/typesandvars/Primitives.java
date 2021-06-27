@@ -1,4 +1,4 @@
-package Lesson1.TypesAndVariables;
+package com.testinglaboratory.lesson1.typesandvars;
 
 public class Primitives {
 

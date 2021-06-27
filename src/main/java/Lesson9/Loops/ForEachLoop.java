@@ -18,6 +18,5 @@ public class ForEachLoop {
         }
     }
 
-
-    //todo try to copy to other list only those person who name have 4 leters.
+    //todo try to copy to other list only those person who name have 4 letters.
 }

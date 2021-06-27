@@ -1,4 +1,4 @@
-package Lesson3.ConversionsAndCasting;
+package com.testinglaboratory.lesson3.typesconversion;
 
 public class ConversionsAndCasting {
 
